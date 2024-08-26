@@ -1,0 +1,61 @@
+
+.filter
+{
+
+    width: 250px;
+    margin-left: 310px;
+}
+
+.fil
+{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(212, 206, 206);
+}
+
+
+hr
+{
+    margin-top: 20px;
+    border: none; 
+    border-bottom: 1px solid;
+    opacity: 50%;
+}
+
+.filter h2
+{
+    margin-top: 20px;
+}
+
+.check input
+{
+    display: block;
+}
+
+.check label
+{
+    display: flex;
+}
+
+.filter span
+{
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.spanner
+{
+    margin-top: 20px;
+}
+
+ .item1
+{
+    background-color: #62C3C6;
+}
+
+.item2
+{
+    background-color: #D0EDEE;
+}

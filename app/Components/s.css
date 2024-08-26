@@ -1,0 +1,76 @@
+h2
+{
+    margin-left: 100px;
+    font-weight: 700;
+}
+
+.slider-container {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.slider-container {
+    height: 6px;
+    position: relative;
+    background: #62C3C64D;
+
+    border-radius: 5px;
+}
+
+.slider-container .price-slider {
+    height: 100%;
+    left: 25%;
+    right: 15%;
+    position: absolute;
+    border-radius: 5px;
+    background: #62C3C6;
+;
+}
+
+
+.range-input {
+    position: relative;
+}
+
+.range-input input {
+    position: absolute;
+    width: 250px;
+    height: 5px;
+    background: none;
+    margin-top: -5px;
+    -webkit-appearance: none;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+/* Styles for the range thumb in WebKit browsers */
+input[type="range"]::-webkit-slider-thumb {
+    height: 12px;
+    width: 12px;
+    border-radius: 70%;
+    background: #555;
+    pointer-events: auto;
+    -webkit-appearance: none;
+}
+
+.range
+{
+    margin-top: 8px;
+    display: flex;
+}
+
+.range .minimum, .range .maximum
+{
+    background-color: rgb(206, 206, 206);
+    width: 110px;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+.range .seperator
+{
+    display: flex;
+    align-items: center;
+    padding: 0 5px 0 5px;   
+}
+

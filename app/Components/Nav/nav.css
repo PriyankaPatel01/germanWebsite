@@ -1,0 +1,40 @@
+
+.nav-bar
+{
+    width: 1300px;
+    margin-left: 310px;
+    float: left;
+    margin-top: 70px;
+}
+.search
+{
+    float: left;
+    padding: 6px 16px 8px 16px;
+}
+
+input
+{
+    background-color: #EEF7F7;
+    padding: 5px;
+    border-radius: 10px;
+}
+ul
+{
+    list-style-type: square;
+    
+}
+
+li 
+{
+    font-size: 16px;
+    float: left;
+    margin: 0 30px 0 30px;
+    color: #045A5C;
+    cursor: pointer;
+}
+
+li:hover
+{
+    font-weight: 700;
+}
+

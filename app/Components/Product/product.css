@@ -1,0 +1,191 @@
+body
+{
+    margin:0;
+    padding: 0;
+    width: 310px;
+    background-color: white;
+
+}
+
+
+.product
+{
+    width: 310x;
+    gap: 12px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid #55f5f5 2px;
+}
+
+.product:hover
+{
+    transform: scale(1.02);
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+     height: 250px;
+     width: 200px;
+}
+.text
+{
+    background-color: #28E3E9;
+    padding: 24px;
+    border: 2px;
+    gap: 30px;
+    border-bottom-right-radius: 20px;
+   
+}
+
+.tag-1
+{
+    background:#62C3C6;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    gap: 10px;
+}
+
+.thc
+{
+    float: left;
+    background: white;
+    padding: 4px 20px 4px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+
+.cbd
+{
+    background-color: #62C3C6;
+    float: left;
+    padding:  4px 20px 4px 20px;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+.p-name
+{
+    font-weight: 600;
+    width: 262px;
+    color: #116A6C;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+h2
+{
+    margin-top: 10px;
+    font-weight: 700;
+    float: left;
+
+}
+
+.in_den
+{
+
+    background-color: yellow;
+    border-radius: 5px;
+    float: right;
+    padding: 2px;
+    top: 0;
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .product
+    {
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 200px;
+    }
+    
+    img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 140px;
+        width: 100px;
+    }
+    
+    .text
+    {
+        padding: 14px;
+        border: 2px;
+        border-bottom-right-radius: 10px;
+    }
+    .tag-1
+    {
+        font-size: small;
+        font-weight: 600;
+    }
+
+    .thc
+    {
+        padding: 2px 10px 2px 10px;
+        font-size: small;
+    }
+
+    .cbd
+    {
+        padding:  2px 10px 2px 10px;
+        font-size: small;
+    }
+
+    .p-name
+    {
+        font-weight: 700;
+        width: 162px;
+        color: #116A6C;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .left
+    {
+        font-size: small;
+    }
+
+    .right
+    {
+        font-size: small;
+    }
+
+    h2
+    {
+        margin-top: 2px;
+        font-weight: 500;
+        font-size: medium;    
+    }
+    
+    .in_den
+    {
+    
+        background-color: yellow;
+        border-radius: 5px;
+        font-size: 12px;
+        float: right;
+        padding: 2px;
+        top: 0;
+        margin-top: -20px;
+    }
+
+
+  }

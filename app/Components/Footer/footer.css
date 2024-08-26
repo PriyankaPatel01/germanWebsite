@@ -1,0 +1,27 @@
+footer
+{
+    width: 1920px;
+    height: 201px;
+    background-color: #1A8D91;
+    margin-top: 200px;
+    color: white;
+
+    padding-left: 60px;
+}
+
+table
+{
+    text-align: center;
+    width: 50%;
+}
+
+table td p
+{
+    font-size: 10px;
+}
+
+td
+{
+    padding: 10px;
+}
+
